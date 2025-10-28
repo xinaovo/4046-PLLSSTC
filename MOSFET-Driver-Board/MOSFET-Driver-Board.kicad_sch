@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "28df0905-aa24-4a1f-8565-c2fc4b9502ab")
+	(paper "A4")
+	(title_block
+		(title "MOSFET Driver Board")
+		(date "2025-10-27")
+		(rev "1.0.0")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
