@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -180,7 +186,23 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.1016,
+        0.127,
+        0.1524,
+        0.2032,
+        0.254,
+        0.3048,
+        0.381,
+        0.508,
+        0.635,
+        0.762,
+        0.889,
+        1.016,
+        1.143,
+        1.27
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +229,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.6096,
+          "drill": 0.3048
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -451,7 +482,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MOSFET-Driver-Board.kicad_pro",
+    "filename": "IXD614-GDT-Driver.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -582,14 +613,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.25,
+      "label_size_ratio": 0.375,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 0.0,
-      "text_offset_ratio": 0.08
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -609,6 +640,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "70b1d4df-69f3-46c4-b08e-ac95b419efc7",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }
