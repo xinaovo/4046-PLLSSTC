@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9ab9840e-eb9e-4c45-960f-33458f90feba")
+	(paper "A4")
+	(title_block
+		(title "LV Power Supply")
+		(date "2025-11-17")
+		(rev "1.0.0")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
